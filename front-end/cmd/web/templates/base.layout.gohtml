@@ -1,6 +1,22 @@
-{{template "base" .}}
-{{define "content"}}
-  <div class="container">
-  
-  </div>
+{{define "base" }}
+    <!doctype html>
+    <html lang="en">
+
+    {{template "header" .}}
+
+    <body>
+
+    {{block "content" .}}
+
+    {{end}}
+
+    {{block "js" .}}
+
+    {{end}}
+
+    {{template "footer" .}}
+
+    </body>
+    </html>
+
 {{end}}

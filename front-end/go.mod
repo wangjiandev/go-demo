@@ -1,3 +1,3 @@
-module front-end
+module frontend
 
 go 1.19
