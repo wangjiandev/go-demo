@@ -10,6 +10,7 @@ services:
     deploy:
       mode: replicated
       replicas: 1
+
   authentication-service:
     build:
       context: ./../authentication-service
